@@ -15,9 +15,42 @@ git commit -m ""
 import this in index.js
 
 import "bootstrap.min.css"
+
+npm install react-bootstrap 
+
 //////////
+
+-6
+git add .
+git commit -m ""
+git status
+
+>>> first time
+ git remote add origin linkMyrepo
+git push -u origin master
+
 //////////
+7-PropTypes for check type value in compnents
+
+
+Rating.propTypes = {
+  value: PropTypes.number.isRequired,
+  text: PropTypes.string.isRequired,
+  color: PropTypes.string,
+};
 //////////
+8-import { Link } from "react-router-dom";
+to be a single page not relaod
+
+{Rate, product Page,Rout exact , style bootstrap}
+******************************************
+******************************************
+******************************************
+
+
+#3
+******************************************
+
 //////////
 //////////
 //////////
