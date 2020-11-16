@@ -50,8 +50,19 @@ to be a single page not relaod
 
 #3
 ******************************************
+1- port frontend and backend using proxy in frontend
+after name 
+"proxy":"http://127.0.0.1:5000"
+
+
+
+npm i concurrently
 
 //////////
+
+2- .env for api keys , secret , token
+
+
 //////////
 //////////
 //////////
