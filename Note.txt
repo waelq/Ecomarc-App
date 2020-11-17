@@ -61,11 +61,39 @@ npm i concurrently
 //////////
 
 2- .env for api keys , secret , token
+******************************************
+******************************************
+*****************************************
+
+#4
+******************************************
+1- change color in console
+
+npm i colors
+
+log("".cyan.ex)
+
+//////////
+
+2-create file seeder to imort data in mongodb 
+
+//////////
+
+3- async handelr middelware
+Saves you writing your own try/catch for async/await and passes error on to next.
+When in doubt go look at the source code
 
 
+npm i express-async-handler
+import asyncHandler from "express-async-handler";
+
+express.get('/', asyncHandler(async (req, res, next) => {
+    const bar = await foo.findAll();
+    res.send(bar)
+}))
 //////////
-//////////
-//////////
+
+4-
 //////////
 //////////
 //////////
