@@ -12,6 +12,7 @@ const users = [
     password: bcrypt.hashSync("123456", 10),
   },
   {
+    //after updata  email is waeladel@ex.com , name is WaelAdel
     name: "Adel",
     email: "adel@ex.com",
     password: bcrypt.hashSync("123456", 10),
